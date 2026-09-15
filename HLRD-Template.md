@@ -28,7 +28,7 @@ This is a high-level requirements document, not a detailed design specification.
 
 - Each requirement should express one clear need.
 - Give every requirement a unique ID.
-- Functional requirements should trace to a business objective, user goal, or process.
+- Functional requirements should trace to a business objective or process.
 - Non-functional requirements should include a measurable target wherever practical.
 - Describe the need before prescribing the implementation unless a technology or standard is itself a constraint.
 - Use references instead of duplicating detailed information maintained elsewhere.
@@ -53,17 +53,12 @@ In 2-4 sentences, describe:
 
 Define measurable outcomes rather than solution features. These are the authoritative objectives for the document. Do not create a separate set of initiative objectives. Instead, reference these objective IDs in the scope and requirements sections.
 
-| ID | Business Objective | Success Measure / KPI | Target & Timeline | Owner | Priority |
-|---|---|---|---|---|---|
-| OBJ-01 | [Outcome to achieve] | [Metric] | [Target by date] | [Owner] | [High/Med/Low] |
-| OBJ-02 | [Outcome to achieve] | [Metric] | [Target by date] | [Owner] | [High/Med/Low] |
+Capture the primary beneficiary or user group here when it materially affects the objective. Detailed user interactions belong in the functional requirements.
 
-## 1.3 Stakeholders and User Goals
-
-| Stakeholder / User Group | Role in the Solution | Primary Goal / Need | Impact of Change |
-|---|---|---|---|
-| [Group 1] | [Role] | [Goal] | [Low/Med/High + brief explanation] |
-| [Group 2] | [Role] | [Goal] | [Low/Med/High + brief explanation] |
+| ID | Business Objective | Beneficiary / User | Success Measure / KPI | Target & Timeline | Owner | Priority |
+|---|---|---|---|---|---|---|
+| OBJ-01 | [Outcome to achieve] | [Customer / user / stakeholder group] | [Metric] | [Target by date] | [Owner] | [High/Med/Low] |
+| OBJ-02 | [Outcome to achieve] | [Customer / user / stakeholder group] | [Metric] | [Target by date] | [Owner] | [High/Med/Low] |
 
 ---
 
