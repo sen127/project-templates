@@ -51,7 +51,7 @@ In 2-4 sentences, describe:
 
 ## 1.2 Business Objectives
 
-Define measurable outcomes rather than solution features.
+Define measurable outcomes rather than solution features. These are the authoritative objectives for the document. Do not create a separate set of initiative objectives. Instead, reference these objective IDs in the scope and requirements sections.
 
 | ID | Business Objective | Success Measure / KPI | Target & Timeline | Owner | Priority |
 |---|---|---|---|---|---|
@@ -67,7 +67,7 @@ Define measurable outcomes rather than solution features.
 
 ---
 
-# 2. Initiative and Scope
+# 2. Solution and Scope
 
 ## 2.1 Solution Overview
 
@@ -76,7 +76,11 @@ Describe the proposed solution at a conceptual level. Focus on the business capa
 **Proposed solution:**  
 [Enter 1-3 paragraphs describing the intended future-state solution.]
 
-## 2.2 Scope
+## 2.2 Scope and Objective Alignment
+
+**Business Objectives Addressed:** [OBJ-01, OBJ-02]  
+
+Reference the objectives from Section 1.2 rather than restating them. If only part of a business objective is addressed by this project or phase, state that limitation explicitly.
 
 | In Scope | Out of Scope |
 |---|---|
